@@ -9,7 +9,10 @@ int main(void){
     std::cin>>N1>>N2>>N3;
     std::cout<<"Lados: "<<" "<<N1<<" "<<N2<<" "<<N3<<std::endl;
     if (sqrt((N1*N1)+(N2*N2))==N3){
-        std::cout<<"Estos lados si corresponden a un triangulo rectangulo"<<std::endl;
+        std::cout<<"Estos lados SI corresponden a un triangulo rectangulo"<<std::endl;
+    }
+    else{
+        std::cout<<"Estos lados NO corresponden a un triangulo rectangulo"<<std::endl;
     }
     return 0;
 }
