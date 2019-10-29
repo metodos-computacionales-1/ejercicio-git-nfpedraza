@@ -8,6 +8,8 @@ int main(void){
     std::cout<<"Ingrese valor de los lados del triangulo"<<std::endl;
     std::cin>>N1>>N2>>N3;
     std::cout<<"Lados: "<<" "<<N1<<" "<<N2<<" "<<N3<<std::endl;
-    
+    if (sqrt((N1*N1)+(N2*N2))==N3){
+        std::cout<<"Estos lados si corresponden a un triangulo rectangulo"<<std::endl;
+    }
     return 0;
 }
