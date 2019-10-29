@@ -5,7 +5,7 @@ int main(void){
     float N;
     std::cout<<"Ingrese el radio r del circulo"<<std::endl;
     std::cin>>N;
-    std::cout<<"radio:"<<" "<<N<<std::endl;
+    std::cout<<"radio: "<<" "<<N<<" "<<"diametro: "<<2*M_PI*N<<std::endl;
     
     return 0;
 }
